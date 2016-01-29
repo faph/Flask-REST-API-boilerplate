@@ -1,0 +1,17 @@
+name: env
+
+channels:
+- faph
+
+dependencies:
+- python=3.4.*
+- psycopg2
+- sqlalchemy
+- flask=0.10.*
+- flask-restful=0.3.4
+- requests
+- pip:
+  - gunicorn
+  - flask-sqlalchemy
+  - flask-cors
+  - pyjwt
