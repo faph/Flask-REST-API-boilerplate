@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import flask
 from flask_restful import Resource
 from werkzeug.exceptions import BadRequest

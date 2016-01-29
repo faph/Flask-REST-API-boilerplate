@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from helloworld.database import db
 
 
