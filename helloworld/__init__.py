@@ -10,4 +10,4 @@ app.config.from_object(helloworld.config)
 db.init_app(app)
 api = Api(app)
 for route in routes:
-    api.add_resource(*route)
+    api.add_resource(route.resource, *route.urls)

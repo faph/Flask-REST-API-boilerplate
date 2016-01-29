@@ -1,5 +1,9 @@
+from collections import namedtuple
 from helloworld import resources
 
+
+Route = namedtuple('Route', ['resource', 'urls'])
+
 routes = [
-    (resources.PlanetRes, '/api/v0/planets/')
+    Route(resources.PlanetRes, ['/api/v0/planets/'])
 ]

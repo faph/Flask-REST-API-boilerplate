@@ -7,6 +7,5 @@ class PlanetRes(Resource):
         return
 
     def get(self):
-        return [{'id': planet.id,
-                 'name': planet.name}
+        return [{'id': planet.id, 'name': planet.name}
                 for planet in helloworld.models.Planet.query.all()]
